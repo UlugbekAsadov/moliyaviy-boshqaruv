@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Moliyaviy boshqaruv sayti</title>
+  </head>
+  <body>
+    <!--main header-->
+    <header class="header">
+      <div class="container">
+        <nav>
+          <div class="navbar-brand">
+            <img src="img/logo.svg" alt="no img" />
+            <h1 class="navbar-title">Moliyaviy boshqaruv</h1>
+          </div>
+          <div class="navbar-btn">
+            <button type="submit">Yangi tranzaksiya</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--/main header-->
+
+    <!--Dashboard-->
+    <div class="container">
+      <div class="dashboard">
+        <div class="cards">
+          <div class="card" style="background: #323238">
+            <div class="kirim">
+              Kirim
+              <img src="img/up-circle-icon.svg" alt="icon up" />
+            </div>
+            <div class="money">6,636,226 UZS</div>
+          </div>
+          <div class="card" style="background: #323238">
+            <div class="kirim">
+              Chiqim
+              <img src="img/down-circle-icon.svg" alt="down icon" />
+            </div>
+            <div class="money">1,204,220 UZS</div>
+          </div>
+          <div class="card" style="background: #015f43">
+            <div class="kirim">
+              Qolgan pul
+              <img src="img/usd-icon.svg" alt="usd icon" />
+            </div>
+            <div class="money">5,432,006 UZS</div>
+          </div>
+        </div>
+      </div>
+      <!--/dashboard-->
+
+      <!--search-->
+      <div class="search-section">
+        <form action="get" class="search-form">
+          <input
+            class="text-field"
+            type="text"
+            name="search"
+            placeholder="Qidirish"
+          />
+          <button class="search" type="text" name="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            Qidirish
+          </button>
+        </form>
+      </div>
+      <!--/search-->
+
+      <!--table-->
+      <div class="main__table">
+        <table class="table">
+          <tr>
+            <td>Iyul oyi uchun oylik</td>
+            <td style="color: #00b37e">10,000,000 UZS</td>
+            <td>Mohirdev kompaniyasi</td>
+            <td>01/07/2024</td>
+          </tr>
+          <tr>
+            <td>Iyun oyi uchun kommunal to'lovlar</td>
+            <td style="color: #f75a68">-750,000 UZS</td>
+            <td>Kommunal to'lov</td>
+            <td>30/06/2024</td>
+          </tr>
+          <tr>
+            <td>Iyun oyi uchun mashina ijarasi</td>
+            <td style="color: #f75a68">-3,000,000 UZS</td>
+            <td>Ijara</td>
+            <td>27/06/2024</td>
+          </tr>
+          <tr>
+            <td>Loyihadan kelgan pul</td>
+            <td style="color: #00b37e">7,000,000 UZS</td>
+            <td>Google loyihasidan</td>
+            <td>15/06/2024</td>
+          </tr>
+          <tr>
+            <td>Do'stim va nihoyat qarzini berdi</td>
+            <td style="color: #00b37e">2,000,000 UZS</td>
+            <td>Qarz</td>
+            <td>13/06/2024</td>
+          </tr>
+          <tr>
+            <td>Iyun oyi uchun uy ijarasi</td>
+            <td style="color: #f75a68">-3,000,000 UZS</td>
+            <td>Ijara</td>
+            <td>10/06/2024</td>
+          </tr>
+          <tr>
+            <td>Kiyim oldim</td>
+            <td style="color: #f75a68">-1,000,000 UZS</td>
+            <td>Shopping</td>
+            <td>02/06/2024</td>
+          </tr>
+          <tr>
+            <td>Iyun oyi uchun oylik</td>
+            <td style="color: #00b37e">8,000,000 UZS</td>
+            <td>Mohirdev kompaniyasidan</td>
+            <td>01/06/2024</td>
+          </tr>
+          <tr>
+            <td>May oyi uchun oylik</td>
+            <td style="color: #f75a68">-2,700,000 UZS</td>
+            <td>Ijara</td>
+            <td>27/05/2024</td>
+          </tr>
+          <tr>
+            <td>OIlaviy ovqatlanish</td>
+            <td style="color: #f75a68">-750,000 UZS</td>
+            <td>Oziq-ovqat</td>
+            <td>25/05/2024</td>
+          </tr>
+        </table>
+      </div>
+      <!--/table-->
+
+      <!--pagination-->
+      <div class="pagination">
+        <button class="icons">
+          <img src="img/chevron-left-icon.svg" alt="" />
+        </button>
+        <button class="page" style="background: #00b37e">1</button>
+        <button class="page" style="color: #8d8d99">2</button>
+        <button class="page" style="color: #8d8d99">3</button>
+        <button class="icons">
+          <img src="img/chevron-right-icon.svg" alt="" />
+        </button>
+      </div>
+      <!--/pagination-->
+    </div>
+  </body>
+</html>
